@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app,
+.wrap {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC',
+    'Helvetica Neue', Helvetica, STHeiti, 'Microsoft Yahei', Tahoma, Simsun,
+    sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #f5f5f5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+  background: hsla(220, 4%, 58%, 0.1);
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: hsla(220, 4%, 58%, 0.3);
+  transition: background-color 0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsla(220, 4%, 58%, 0.5);
+}
+
+/* 选中语 */
+::selection {
+  background-color: #1890FF;
+  color: hsla(0, 0%, 100%, 0.8);
+}
+
+/* 输入框提示语颜色 */
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #a8acb7;
+  font-size: 14px;
+}
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #a8acb7;
+  font-size: 14px;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #a8acb7;
+  font-size: 14px;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #a8acb7;
+  font-size: 14px;
+}
