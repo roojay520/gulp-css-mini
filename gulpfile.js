@@ -1,4 +1,3 @@
-// eslint-disable-next-line
 const gulp = require('gulp');
 const rename = require('gulp-rename');
 const cssmin = require('./src/index');
