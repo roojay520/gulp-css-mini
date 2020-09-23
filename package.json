@@ -1,6 +1,6 @@
 {
   "name": "@feq/gulp-css-min",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "minify css file using gulp.",
   "main": "src/index.js",
   "repository": "https://github.com/roojay520/gulp-css-min.git",
